@@ -20,7 +20,7 @@ async function runQueries() {
     const books = db.collection('books');
 
 
-    // Write your queries below
+
    // First query: Finding all books in the "Fiction" genre
 const fictionBooks = await books.find({ genre: "Fiction" }).toArray();
 console.log("Books in the Fiction genre:");
